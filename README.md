@@ -14,7 +14,7 @@ git clone https://github.com/PukaraES/wordpress-boilerplate.git
 cd wordpress-boilerplate && rm -rf .git/
 ```
 
-#### 3. Start the local dev environment with docker-compose
+#### 3. Configure your envs and start the local dev environment with docker-compose
 
 ```bash
 docker-compose up -d
