@@ -123,11 +123,15 @@ blockquote, cite, em, i {
 	display: flex;
 	justify-content: flex-start;
 	gap: 7vw;
+	width:92%;
 }
 @media(max-width: 960px) {
 	.custom__footer .top__section {
 		flex-direction: column;
 	}
+}
+.custom__footer .top__section .column__container {
+	width:55%;
 }
 .custom__footer .top__section .title__container {
 	flex: 1 1;
@@ -223,7 +227,7 @@ blockquote, cite, em, i {
 }
 .site-footer .custom__footer .top__section .links__container .links ul li a {
 	color: white;
-	font-weight: 500;
+	font-weight: 400;
 }
 .site-footer .custom__footer .top__section .links__container .links ul li a:hover {
 	color: #F6A800;
