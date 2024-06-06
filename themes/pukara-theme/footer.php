@@ -25,7 +25,7 @@
                         </ul>
                     </div>
 
-                    <div class="links buttons">
+                    <div class="links buttons social-media-icons">
                         <ul>
                             <li>
                                 <a href="https://instagram.com/polestarpilates"><span
