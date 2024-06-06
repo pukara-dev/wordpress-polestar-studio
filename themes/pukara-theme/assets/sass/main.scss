@@ -340,9 +340,28 @@ img.close_btn_img {
 	width: 100%;
 	position: relative;
 }
-.site-footer .custom__footer .top__section .links__container .links.buttons {
+.site-footer .custom__footer .top__section .links__container .social-media-icons {
 	margin-left: auto;
-	margin-top: 15vh;
+	margin-top: 2.7vh;
+	margin-right: 2rem;
+}
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul li {
+	width: 2.5rem !important;
+	height:2.5rem !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul li a span.dashicons {
+	font-size: 1.8rem !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media(max-width: 960px) {
