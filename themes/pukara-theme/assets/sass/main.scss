@@ -70,7 +70,7 @@ blockquote, cite, em, i {
 	color:#f8a800;
 }
 
-/*Homepage Section 01 */
+/*Homepage Section 01*/
 .elementor-8 .elementor-element.elementor-element-021efaf {
 	margin-left: 4vw;
 	padding-top: 0;
@@ -181,6 +181,7 @@ body div div[class*=ays-pb-modal_].ays-pb-modal {
 }
 .modal-content {
 	align-items: flex-start;
+	height: 31vh;
 }
 .modal-contact {
 	text-align: left;
@@ -197,7 +198,7 @@ p.modal-subtitle {
 	font-size:14px;
 	font-weight:500;
 	line-height:18px;
-	margin-bottom: 20px;
+	margin-bottom: 0;
 	margin-top:0;
 }
 div.modal-info {
@@ -218,7 +219,7 @@ h2.modal-phone, h2.modal-address, h2.modal-email {
 	text-align:left !important;
 	font-weight: 600;
 	font-size: 16px;
-	margin: 1.5vh 0;
+	margin: 1vh 0;
 }
   .modal-title, .modal-subtitle, .modal-phone, .modal-address, .modal-email {
     text-align: left;
