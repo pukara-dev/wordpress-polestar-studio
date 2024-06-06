@@ -76,20 +76,24 @@ blockquote, cite, em, i {
 	padding-top: 0;
 }
 .elementor-8 .elementor-element .heading-1 p.elementor-heading-title {
-	font-size:40px;
+	font-size: 2.5rem;
+	line-height: 3rem;
 }
 .elementor-8 .elementor-element .elementor-widget-container p {
 	font-size: 16px;
 	margin-top: 0;
 	gap: 10px 20px !important;
 }
-.elementor-8 .elementor-element.elementor-element-84fa782.e-con {
+.elementor-button span {
+	font-weight:600;
+}
+.elementor-8 .elementor-element.video-1.e-con {
     width:60vw;
 	margin: 5.2vh 4.2vw 7.5vh 0;
 }
 
 /*Homepage Section 02*/
-.elementor-8 .elementor-element.elementor-element-3b2f668 {
+.elementor-8 .column-map-text {
 	padding-left: 12vw;
 }
 div.heading-2 {
@@ -177,6 +181,7 @@ body div div[class*=ays-pb-modal_].ays-pb-modal {
 }
 .modal-content {
 	align-items: flex-start;
+	height: 31vh;
 }
 .modal-contact {
 	text-align: left;
@@ -193,7 +198,7 @@ p.modal-subtitle {
 	font-size:14px;
 	font-weight:500;
 	line-height:18px;
-	margin-bottom: 20px;
+	margin-bottom: 0;
 	margin-top:0;
 }
 div.modal-info {
@@ -214,7 +219,7 @@ h2.modal-phone, h2.modal-address, h2.modal-email {
 	text-align:left !important;
 	font-weight: 600;
 	font-size: 16px;
-	margin: 1.5vh 0;
+	margin: 1vh 0;
 }
   .modal-title, .modal-subtitle, .modal-phone, .modal-address, .modal-email {
     text-align: left;
@@ -335,9 +340,28 @@ img.close_btn_img {
 	width: 100%;
 	position: relative;
 }
-.site-footer .custom__footer .top__section .links__container .links.buttons {
+.site-footer .custom__footer .top__section .links__container .social-media-icons {
 	margin-left: auto;
-	margin-top: 15vh;
+	margin-top: 2.7vh;
+	margin-right: 2rem;
+}
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul li {
+	width: 2.5rem !important;
+	height:2.5rem !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul li a span.dashicons {
+	font-size: 1.8rem !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media(max-width: 960px) {
