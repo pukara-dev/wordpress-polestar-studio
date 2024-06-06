@@ -144,6 +144,21 @@ div.grid-tag-2 {
 	font-size: 1.2rem !important;
 }
 
+/*About Us Section 01*/
+div.section-1-column-1 {
+	width:40% !important;
+	margin-left: 11vw;
+}
+.about-section-1-heading .elementor-widget-container h1.elementor-heading-title {
+	font-size: 4rem !important;
+	line-height: 4rem !important;
+	padding-bottom: 1rem;
+}
+.about-section-1-img .elementor-widget-container img {
+	width: 35vw !important;
+	margin-left: 2vh;
+}
+
 /*Contact Modal*/
 body div div[class*=ays-pb-modal_].ays-pb-modal {
 	padding:0;
