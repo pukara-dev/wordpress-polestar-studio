@@ -92,12 +92,15 @@ blockquote, cite, em, i {
 .elementor-8 .elementor-element.elementor-element-3b2f668 {
 	padding-left: 12vw;
 }
-div.elementor-widget-container h1.elementor-heading-title {
+div.heading-2 {
+	align-content: flex-start;
+}
+div.elementor-widget-container h2.elementor-heading-title {
 	font-size:1.9rem !important;
 	padding-right: 5vw;
 	line-height: 2rem !important;
-	margin-bottom:2vh;
-	margin-top: 8vh;
+	margin-bottom: 4vh;
+	margin-top: 2vh;
 }
 .elementor-8 .elementor-element .elementor-widget-container p {
 	line-height: 1.5rem;
@@ -108,7 +111,7 @@ div.located-2 {
 	margin-bottom: 3vh;
 }
 div.grid-tag-2 {
-	margin-top: 2vh;
+	margin-top: 3vh;
 }
 .elementor-8 .elementor-element.located-2 .elementor-icon-box-description {
 	font-size: 1rem !important;
@@ -120,7 +123,8 @@ div.grid-tag-2 {
 	padding-left: 0;
 }
 .elementor-8 .elementor-element.elementor-element-0905297 iframe {
-	height: 75vh !important;
+	height: 70vh !important;
+	margin-bottom: 10vh;
 }
 .tag-map div.elementor-widget-container {
 	padding:2vh 0.78vw 2vh 0.78vw !important;
