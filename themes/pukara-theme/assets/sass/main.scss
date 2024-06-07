@@ -71,7 +71,7 @@ blockquote, cite, em, i {
 }
 
 /*Homepage Section 01*/
-.elementor-page .elementor-element.elementor-element-021efaf {
+.elementor-page .slide-1 .e-con.elementor-element:nth-of-type(1) {
 	margin-left: 4vw;
 	padding-top: 0;
 }
@@ -104,7 +104,7 @@ div.elementor-widget-container h2.elementor-heading-title {
 	padding-right: 5vw;
 	line-height: 2rem !important;
 	margin-bottom: 4vh;
-	margin-top: 2vh;
+	margin-top: 3vh;
 }
 .elementor-page .elementor-element .elementor-widget-container p {
 	line-height: 1.5rem;
@@ -132,7 +132,7 @@ div.grid-tag-2 {
 	margin-top: 10vh;
 	padding-left: 0;
 }
-.elementor-page .elementor-element.elementor-element-0905297 iframe {
+.elementor-page .elementor-element.elementor-widget-google_maps iframe {
 	height: 70vh !important;
 	margin-bottom: 10vh;
 }
