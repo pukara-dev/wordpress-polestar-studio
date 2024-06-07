@@ -71,7 +71,7 @@ blockquote, cite, em, i {
 }
 
 /*Homepage Section 01*/
-.slide-1 .e-con.elementor-element:nth-of-type(1) {
+.elementor-page .elementor .slide-1 .e-con.elementor-element:nth-of-type(1) {
 	margin-left: 4vw;
 	padding-top: 0;
 }
@@ -167,6 +167,60 @@ div.section-1-column-1 {
 .about-section-1-img .elementor-widget-container img {
 	width: 35vw !important;
 	margin-left: 2vh;
+}
+
+/*About Us Section 02*/
+.title-2-aboutus .elementor-widget-container h1.elementor-heading-title {
+	font-size: 2.5rem !important;
+	margin-top: 11vh;
+}
+
+.columns-aboutus div.e-con-inner {
+	margin:0 auto;
+}
+div.text-2-aboutus {
+	margin-top: 5vh !important;
+}
+.text-2-aboutus .elementor-widget-container p {
+	font-size: 1.1rem !important;
+}
+.columns-aboutus .e-con-inner div.column-aboutus {
+	margin: 0 1.2vw 0 1.2vw;
+}
+/*.column-image .elementor-widget-container {
+	position: relative;
+	display: inline-block;
+  }
+.column-image .elementor-widget-container img {
+	width:20vw;
+	display: block;
+	height: auto;
+}
+.column-image .elementor-widget-container img::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+	pointer-events: none;
+  }*/
+.column-2-aboutus .name-aboutus .elementor-widget-container h3.elementor-heading-title {
+	font-size: 1.3rem !important;
+	margin-top: 3.5vh;
+	margin-bottom: .5vh;
+}
+.column-2-aboutus .especialties-aboutus .elementor-widget-container h4.elementor-heading-title {
+	font-size: 1rem !important;
+	margin-bottom: 2.2vh;
+}
+.column-2-aboutus .text-aboutus .elementor-widget-container span {
+	font-size: 1rem !important;
+	line-height: 1.3rem !important;
+}
+.column-2-aboutus .text-aboutus .elementor-widget-container {
+	padding: 0 1.7vw 0 1.7vw !important;
 }
 
 /*Contact Modal*/
