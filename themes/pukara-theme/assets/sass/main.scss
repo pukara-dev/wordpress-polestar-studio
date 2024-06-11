@@ -360,6 +360,7 @@ body div div[class*=ays-pb-modal_].ays-pb-modal {
 	text-align: left;
 }
 h1.modal-title {
+	color:#223146;
 	margin-bottom: 0;
 	margin-top:0;
 	font-weight: 500;
@@ -390,6 +391,7 @@ div.modal-info div {
   }
 h2.modal-phone, h2.modal-address, h2.modal-email {
 	text-align:left !important;
+	color:#223146;
 	font-weight: 600;
 	font-size: 16px;
 	margin: 1vh 0;
@@ -405,6 +407,39 @@ div.modal-map iframe{
 }
 img.close_btn_img {
 	width: 2.9vw;
+}
+
+@media (max-width: 768px) {
+	.modal-content {
+		height: 32vh;
+	}
+	h1.modal-title {
+		margin-bottom: 0;
+		margin-top:0;
+		font-size:1rem;
+		text-align: center !important;
+		font-weight: 600;
+	}
+	p.modal-subtitle {
+		font-size:.7rem;
+		line-height:.75rem;
+		text-align: left !important;
+	}
+	div.modal-info {
+		margin-top:3vh;
+	}
+	h2.modal-phone, h2.modal-address, h2.modal-email {
+		font-size: .8rem;
+		margin: .7vh 0;
+	}
+	div.modal-map {
+		width:100%
+	}
+	div.modal-map iframe{
+		height:200px;
+		width:100%;
+		padding: 0;
+	}
 }
 
 /* Custom buttons */
@@ -642,9 +677,11 @@ img.close_btn_img {
 	font-size: 1.1rem !important;
 	padding: 0 12vw !important;
 }
+
 @media (max-width: 768px) {
 	.schedule-title .elementor-widget-container h1.elementor-heading-title {
 		font-size: 2.2rem !important;
+		margin-top:0;
 	}
 	.schedule-text .elementor-widget-container p {
 		font-size: .9rem !important;
