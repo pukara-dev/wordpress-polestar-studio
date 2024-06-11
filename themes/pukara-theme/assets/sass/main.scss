@@ -142,6 +142,9 @@ div.located-2 {
 div.grid-tag-2 {
 	margin-top: 3vh;
 }
+.tag-map div.elementor-widget-container span {
+	font-size: 1.1rem;
+}
 .elementor-page .elementor .tag-map.elementor-widget-heading:nth-of-type(2) > .elementor-widget-container {
 	width:8vw;
 }
@@ -160,9 +163,6 @@ div.grid-tag-2 {
 .tag-map div.elementor-widget-container {
 	padding:2vh 0.78vw 2vh 0.78vw !important;
 }
-.tag-map div.elementor-widget-container span {
-	font-size: 1.1rem;
-}
 
 @media (max-width: 768px) {
 	.elementor-page .elementor .column-map-text {
@@ -175,14 +175,43 @@ div.grid-tag-2 {
 		margin-top:3.2vh;
 		margin-bottom: 3vh;
 	}
+	.column-map-text div.grid-tag-2 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+	}
+	.column-map-text .located-2 .elementor-widget-container div.elementor-icon-box-wrapper {
+		display: flex;
+	}
+	.elementor-page .elementor .elementor-element.located-2 .elementor-icon-box-description {
+		font-size: .85rem !important;
+		padding-left: .5rem;
+	}
+	.column-map-text div.grid-tag-2 .tag-map {
+		flex: 1 1 30%;
+		display: flex;
+	}
+	.tag-map div.elementor-widget-container span {
+		font-size: 1rem;
+	}
+	.column-map-text div.grid-tag-2 .tag-map div.elementor-widget-container {
+		width: 80% !important;
+	}
+	.elementor-page .elementor .tag-map.elementor-widget-heading:nth-of-type(4) > .elementor-widget-container {
+		width:35% !important;
+	}
 	.elementor-widget-google_maps div.elementor-custom-embed {
 		width: 100%;
 	}
 	.elementor-widget-google_maps div.elementor-widget-container {
 		border-radius: 0 !important;
 	}
+	.elementor-widget-google_maps div.elementor-custom-embed {
+		margin-top: 5vh;
+	}
 	.elementor-page .elementor .elementor-element.elementor-widget-google_maps iframe {
-		height: 120vh !important;
+		height: 70vh !important;
 		margin-bottom: 0;
 	}
 }
@@ -612,4 +641,14 @@ img.close_btn_img {
 .schedule-text .elementor-widget-container p {
 	font-size: 1.1rem !important;
 	padding: 0 12vw !important;
+}
+@media (max-width: 768px) {
+	.schedule-title .elementor-widget-container h1.elementor-heading-title {
+		font-size: 2.2rem !important;
+	}
+	.schedule-text .elementor-widget-container p {
+		font-size: .9rem !important;
+		line-height: .9rem !important;
+		padding: 0 8vw !important;
+	}
 }
