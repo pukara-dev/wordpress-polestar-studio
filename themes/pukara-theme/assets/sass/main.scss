@@ -649,11 +649,14 @@ img.close_btn_img {
 	justify-content: center;
 	align-items: center;
 }
-.site-footer .custom__footer .top__section .links__container .social-media-icons ul li a span.dashicons {
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul li a svg {
 	font-size: 1.8rem !important;
+	width: 1.5rem;
+	height:auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	fill: #fff;
 }
 
 @media(max-width: 960px) {
