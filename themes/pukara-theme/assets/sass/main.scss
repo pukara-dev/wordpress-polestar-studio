@@ -479,7 +479,7 @@ img.close_btn_img {
 
 @media (max-width: 768px) {
 	.modal-content {
-		height: 32vh;
+		height: 25%;
 	}
 	h1.modal-title {
 		margin-bottom: 0;
@@ -509,8 +509,8 @@ img.close_btn_img {
 		padding: 0;
 	}
 	img.close_btn_img {
-		width:7vw;
-		height:4vh;
+		width:10vw;
+		height:auto;
 	}
 }
 
@@ -649,11 +649,14 @@ img.close_btn_img {
 	justify-content: center;
 	align-items: center;
 }
-.site-footer .custom__footer .top__section .links__container .social-media-icons ul li a span.dashicons {
+.site-footer .custom__footer .top__section .links__container .social-media-icons ul li a svg {
 	font-size: 1.8rem !important;
+	width: 1.5rem;
+	height:auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	fill: #fff;
 }
 
 @media(max-width: 960px) {
