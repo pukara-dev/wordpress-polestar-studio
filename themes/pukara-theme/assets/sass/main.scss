@@ -209,6 +209,9 @@ div.grid-tag-2 div.tag-map {
 .tag-map div.elementor-widget-container span {
 	font-size: 1.1rem;
 }
+.elementor-page .elementor .tag-map.elementor-widget-heading {
+	border-radius: 10px;
+}
 .elementor-page .elementor .tag-map.elementor-widget-heading:nth-of-type(2) > .elementor-widget-container {
 	width:8vw;
 }
