@@ -200,6 +200,9 @@ i {
 }
 
 /*Homepage Section 02*/
+.slide-2 {
+  padding: 5vh 0 5vh 0 !important;
+}
 .elementor-page .elementor .column-map-text {
   padding-left: 12vw;
 }
@@ -230,9 +233,7 @@ div.located-2 {
 }
 div.grid-tag-2 {
   margin-top: 3vh;
-}
-div.grid-tag-2 div.tag-map {
-  background-color: #ffe9de;
+  align-items: center !important;
 }
 .tag-map div.elementor-widget-container span {
   font-size: 1.1rem;
@@ -262,7 +263,6 @@ div.grid-tag-2 div.tag-map {
   .elementor-element.elementor-widget-google_maps
   iframe {
   height: 70vh !important;
-  margin-bottom: 10vh;
 }
 .tag-map div.elementor-widget-container {
   padding: 2vh 0.78vw 2vh 0.78vw !important;
