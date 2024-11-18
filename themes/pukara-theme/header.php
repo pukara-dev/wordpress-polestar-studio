@@ -23,6 +23,9 @@
                     'theme_location' => 'primary',
                     'menu_class' => 'primary-menu',
                     'container' => false,
+                    'depth' => 2, // Permite até 2 níveis (menu e submenu)
+                    'fallback_cb' => false,
+                    'walker' => new WP_Bootstrap_Navwalker(), // Opcional, para menu mais estilizado
                 )
             ); ?>
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
